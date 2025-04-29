@@ -1,0 +1,448 @@
+
+*{
+	margin: 0;
+	border: border-box;
+	background-color: black;
+
+}
+.search-title {
+    text-align: center;
+    font-size: 28px; /* Increased size */ /* Bold font */
+	font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 20px;
+	padding-bottom: 60px;
+}
+
+
+.navbar {
+	height: 60px;
+	background-color:whitesmoke;
+	color: black;
+    display:flex;
+	font-family: Baskerville;
+	align-items: center;
+}
+.nav-logo{
+	height:50px;
+	width: 1050px;
+}
+.logo{
+	height:50px;
+	width: 100px;
+}
+
+.border{
+	border:2px solid transparent;
+	
+}
+.border:hover{
+	border: 2px solid rgb(233, 233, 227);
+}
+l{
+	font-size: xx-large;
+	text-decoration:underline;
+}
+.nav-call{
+	
+
+color: black;
+height: 50px;
+width: 200px;
+display: flex;
+align-items: center;
+}
+.mo-no{
+font-size: x-large;
+}
+.nav-location{
+	
+	height:50px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	font-size:large;
+	}
+	.locations{
+		margin-left: 20px;
+	}
+	.change{
+		height:50px;
+	width: 200px;
+
+	align-items: center;
+	font-size:large;
+	}
+	/*second navbar*/
+
+
+.snav{
+	height:51px;
+	background-color:white;
+color: black;
+	display: flex;
+	font-size: large;
+	font-weight: bold;
+	align-items:center;
+	margin-top: 20px;
+	
+}
+.buycar{
+	height: 51px;
+    margin-left: 50px;
+	align-items: center;
+	
+}
+.tradecar{
+	height: 51px;
+	margin-left: 50px;
+}
+.fianancing{
+	height: 51px;
+	margin-left: 50px;
+}
+.locations{
+	height: 51px;
+	margin-left: 50px;
+
+}
+.offers{
+	height: 51px;
+	margin-left: 50px;
+}
+.search{
+	height: 51px;
+	margin-left: 50px;
+}
+.user{
+	height: 51px;
+	margin-left: 600px;
+}
+/*hero section*/
+
+.hero-section{
+	margin-top: 100px;
+	
+	height: 700px;
+	width: 100%;
+	align-items:center;
+	background-color: white;
+	align-items:flex-start;
+	background-image: url("HomepageImage.jpg");
+	background-size:100%;
+	
+.text_hero{
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+	
+}
+	
+	
+}
+.catagory{
+	background-color: gainsboro;
+	margin-bottom: 50px;
+	display: flex;
+	font-size: medium;
+	font-weight: bold;
+	p{
+		margin-left: 100px;
+	}
+}
+
+/* brands */
+
+.brand{
+	background-color:black;
+	display: flex;
+	font-size: medium;
+	font-weight: bold;
+	margin-bottom: 50px;
+	align-items: center;
+	p{
+		margin-left: 100px;
+	}
+}
+
+
+.maruti{
+	width: 20%;
+	margin-left: 40px;
+	
+	
+	}
+	
+
+	
+
+.mahindra{
+
+width: 20%;
+background-color:gainsboro;
+margin-left: 40px;
+transition: transform 0.3s;
+}
+.tata{
+
+	width: 20%;
+	
+	margin-left: 40px;
+	}
+	.bmw{
+		
+		width: 20%;
+		
+		margin-left: 40px;
+		}
+/* footer */
+
+.foot{
+	background-color:white;
+	height: 70px;
+}
+.foot2{
+	background-color:rosybrown;
+	height: 200px;
+	color: rgb(202, 202, 188);
+}
+.end{
+	background-color: yellow;
+	height: 20px;
+}
+.hero-section2{
+	height: 0px;
+}
+
+k{
+	font-size: x-large;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+n{
+	font-size: xx-large;
+	text-decoration:underline;
+	color: rgb(230, 59, 59);
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+/* contact */
+ .contact-form{
+	
+	height: 500px;
+	width:100%;
+	background-color:lightgrey;
+
+} 
+.contact-left{
+	background-color:white;
+	height: 500px;
+	width: 100%;
+	align-items: center;
+	display: block;
+}
+.contact-right{
+	background-color:white;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+  h2 {
+	font-weight: 300;
+	text-align: center;
+  }
+  
+  p {
+	position: relative;
+  }
+  .about{
+	background-color: lightgray;
+	margin: 50px;
+	height: 200px;
+	text-align: center;
+	padding: 50px;
+  }
+  .txt-about{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: larger;
+	
+  }
+ .login{
+	height: 700px;
+	background-color: aqua;
+	align-items: end;
+ }
+.slider_container{
+
+background-color: aqua;
+height: 300px;
+width: 100%;	
+display: flex;
+}
+.img1{
+	height: 300px;
+	width: 25%;
+}
+.admin-home{
+	display: flex;
+}
+.admin-nav{
+	background-color: lightgray;
+	font-size: x-large;
+	padding: 15px;
+}
+.admin-nav:hover{
+	background-color: solid gray;
+}
+.button1{
+	
+	border: none;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}
+
+.responsive-table {
+  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  .col-1 {
+    flex-basis: 10%;
+  }
+  .col-2 {
+    flex-basis: 40%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+  }
+  .col-4 {
+    flex-basis: 25%;
+  }
+  
+  @media all and (max-width: 767px) {
+    .table-header {
+      display: none;
+    }
+    .table-row{
+      
+    }
+    li {
+      display: block;
+    }
+    .col {
+      
+      flex-basis: 100%;
+      
+    }
+    .col {
+      display: flex;
+      padding: 10px 0;
+      &:before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+      }
+    }
+  }
+}
+.red{
+	background-color: red;
+	border: none;
+	display: inline-block;
+	text-shadow: #6C7A89;
+	
+}
+.a{
+	height: 40%;
+	background-color:white;
+	padding: 20px 20px;
+	display: flex;
+}
+.a1{
+	height: 50%;
+	background-color:  #4BCBEB;
+	width: 25%;
+	border-radius: 20px;
+	color: white;
+	
+	
+
+}
+.a2{
+	height: 50%;
+	background-color:#4b49ac;
+	width: 25%;
+	margin-left: 20px;
+	border-radius: 20px;
+	color: white;
+	
+}
+.a3{
+	height: 50%;
+	background-color:#7978E9;
+	width: 25%;
+	margin-left: 20px;
+	border-radius: 20px;
+	color: white;
+}
+.a4{
+	height: 50%;
+	background-color:#F3797E;
+	width: 25%;
+	margin-left: 20px;
+	border-radius: 20px;
+	color: white;
+}
+.a1 h1{
+	font-size: large;
+	font-family: sans-serif;
+}
+.a1 h2{
+	font-size: xx-large;
+	
+}
+.a2 h1{
+	font-size: large;
+	font-family: sans-serif;
+}
+.a2 h2{
+	font-size: xx-large;
+	
+}

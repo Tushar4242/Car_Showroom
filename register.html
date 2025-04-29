@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Car Showroom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('register_bg1.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .register-container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 350px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .register-container h2 {
+            margin-bottom: 20px;
+            color: rgb(15, 15, 15);
+        }
+        .register-container input, .register-container button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.3);
+            color: rgb(12, 11, 11);
+        }
+        .register-container input::placeholder {
+            color: rgba(19, 18, 18, 0.7);
+        }
+        .register-container button {
+            background-color: #b03a07;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .register-container button:hover {
+            background-color: #218838;
+        }
+        .login-link {
+            margin-top: 10px;
+            font-size: 14px;
+            color: white;
+        }
+        .login-link a {
+            color: #50b0f0;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Register</h2>
+        <form action="register.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="city" placeholder="City" required>
+            <input type="text" name="pincode" placeholder="Pincode" required>
+            <button type="submit">Register</button>
+        </form>
+        <p class="login-link">Already have an account? <a href="login.php">Login here</a></p>
+    </div>
+</body>
+</html>
